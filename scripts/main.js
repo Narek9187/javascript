@@ -7,3 +7,4 @@ Number.prototype.pow = function (x) {
 console.log(num.pow(3));
 
 
+// Pow func
