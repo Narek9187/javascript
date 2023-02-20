@@ -1,0 +1,25 @@
+{
+  "name": "my_project",
+  "version": "1.0.0",
+  "description": "first custom project",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Narek9187/javascript.git"
+  },
+  "keywords": [
+    "my_project"
+  ],
+  "author": "Narek Hovsepyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Narek9187/javascript/issues"
+  },
+  "homepage": "https://github.com/Narek9187/javascript#readme",
+  "dependencies": {
+    "eslint": "^8.34.0"
+  }
+}
