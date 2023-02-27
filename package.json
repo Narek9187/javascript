@@ -4,7 +4,11 @@
   "description": "first custom project",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix src",
+    "lint:start": "eslint src",
+    "lint:css": "stylelint --fix \"**/*.css\"",
+    "dev": "lite-server --baseDir=\"src\""
   },
   "repository": {
     "type": "git",
@@ -19,7 +23,17 @@
     "url": "https://github.com/Narek9187/javascript/issues"
   },
   "homepage": "https://github.com/Narek9187/javascript#readme",
-  "dependencies": {
-    "eslint": "^8.34.0"
+  "devDependencies": {
+    "@html-eslint/eslint-plugin": "^0.16.0",
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "lite-server": "^2.6.1",
+    "prettier": "^2.8.4",
+    "stylelint": "^15.2.0",
+    "stylelint-config-standard": "^30.0.1"
   }
 }

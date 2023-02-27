@@ -1,0 +1,47 @@
+
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: #e8e8e8;
+}
+
+.container {
+    width: 1200px;
+    margin: 20px auto;
+}
+
+.card {
+    width: 400px;
+    margin: 10px;
+    display: inline-block;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#loading {
+    width: 2rem;
+    height: 2rem;
+    border: 5px solid #f3f3f3;
+    border-top: 6px solid #9c41f2;
+    border-radius: 100%;
+    margin: auto;
+    visibility: hidden;
+    animation: spin 1s 1s infinite linear;
+}
+
+#loading.display {
+    visibility: visible;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+
+    }
+    to {
+        transform: rotate(360deg);
+
+    }
+}
+
